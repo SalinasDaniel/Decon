@@ -1,0 +1,99 @@
+body {
+    main {
+        .optimize-processes {
+            text-align: center;
+            .image {
+                background-image: url('../images/fondo-optimize.png');
+                height: 340px;
+                margin-top: 80px;
+                @include breakpoint(desktop) {
+                    background-size: 100%;
+                    margin-top: 200px;
+                }
+                .row {
+                    margin-right: 0;
+                    color: #FFFFFF;
+                    .col-sm-12 {
+                        margin-top: 51px;
+                        @include breakpoint(desktop) {
+                            margin-top: 97px;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-top: 35px;
+                        }
+                        h1 {
+                            font-size: 26px;
+                            @include breakpoint(desktop) {
+                                font-size: 48px;
+                            }
+                            @include breakpoint(tablet) {
+                                font-size: 45px;
+                            }
+                        }
+                        p {
+                            font-size: 19px;
+                            @include breakpoint(desktop) {
+                                font-size: 29px;
+                            }
+                            @include breakpoint(tablet) {
+                                font-size: 29px;
+                            }
+                        }
+                    }
+                }
+            }
+            .image::before {
+                content: "";
+                background-color: #000000;
+                padding-bottom: 319px;
+                opacity: .7;
+                padding-left: 100%;
+            }
+            img {
+                margin-top: 50px;
+                width: 100%;
+                @include breakpoint(desktop) {
+                    margin-top: 156px;
+                }
+            }
+            .row {
+                margin-right: 0;
+                width: 80%;
+                margin-left: 8%;
+                .col-sm-4 {
+                    margin-bottom: 0;
+                    @include breakpoint(desktop) {
+                        margin-bottom: 100px;
+                    }
+                    p {
+                        font-size: 22px;
+                        width: 68%;
+                        margin-left: 19%;
+                        @include breakpoint(desktop) {
+                            width: 60%;
+                            margin-left: 23%;
+                        }
+                        @include breakpoint(tablet) {
+                            width: 86%;
+                            margin-left: 11%;
+                        }
+                    }
+                    img {
+                        width: 24%;
+                    }
+                }
+            }
+        }
+        .diagnosis-free {
+            text-align: center;
+            margin-top: -21px;
+            .btn-default {
+                width: 44%;
+                height: 42px;
+                border-radius: 10px;
+                background-color: #3FBD62;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

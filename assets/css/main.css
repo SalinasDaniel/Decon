@@ -1,0 +1,731 @@
+html body {
+  font-family: Montserrat; }
+
+body header .logo-contact {
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 15px; }
+  @media (min-width: 1025px) {
+    body header .logo-contact {
+      text-align: left;
+      width: 85%;
+      margin-left: 7%; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body header .logo-contact {
+      text-align: left;
+      width: 85%;
+      margin-left: 7%; } }
+  body header .logo-contact .row {
+    margin-right: 0; }
+    body header .logo-contact .row .col-sm-6 .contact {
+      margin-top: 46px; }
+      @media (min-width: 1025px) {
+        body header .logo-contact .row .col-sm-6 .contact {
+          text-align: right; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .logo-contact .row .col-sm-6 .contact {
+          text-align: right; } }
+      body header .logo-contact .row .col-sm-6 .contact h1 {
+        font-size: 32px;
+        color: #05283C;
+        font-weight: 300; }
+        body header .logo-contact .row .col-sm-6 .contact h1 .fa-whatsapp {
+          font-size: 16px;
+          position: absolute;
+          color: #25d366;
+          font-weight: 600; }
+
+body header .headboard .image {
+  background-image: url("../images/cabezera.png");
+  height: 623px; }
+  @media (min-width: 1025px) {
+    body header .headboard .image {
+      background-size: 100%; } }
+  body header .headboard .image .row {
+    margin-right: 0;
+    text-align: left; }
+    body header .headboard .image .row .col-sm-7 {
+      color: #FFFFFF;
+      margin-top: 8px;
+      margin-left: 6.5%; }
+      @media (min-width: 1025px) {
+        body header .headboard .image .row .col-sm-7 {
+          margin-top: 141px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .headboard .image .row .col-sm-7 {
+          margin-top: 141px; } }
+      body header .headboard .image .row .col-sm-7 p {
+        width: 90%; }
+        @media (min-width: 1025px) {
+          body header .headboard .image .row .col-sm-7 p {
+            font-size: 38px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body header .headboard .image .row .col-sm-7 p {
+            font-size: 26px; } }
+    @media (min-width: 1025px) {
+      body header .headboard .image .row ul {
+        font-size: 31px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body header .headboard .image .row ul {
+        font-size: 24px; } }
+    @media (min-width: 1025px) {
+      body header .headboard .image .row .col-sm-5 {
+        max-width: 34.666667%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body header .headboard .image .row .col-sm-5 {
+        max-width: 34.666667%; } }
+    body header .headboard .image .row .col-sm-5 form {
+      background-color: white;
+      text-align: center;
+      height: 413px;
+      width: 100%;
+      border-radius: 22px 22px 0px 0px;
+      margin-left: 2%; }
+      @media (min-width: 1025px) {
+        body header .headboard .image .row .col-sm-5 form {
+          margin-top: 69px;
+          width: 79%;
+          height: 530px;
+          margin-left: 0; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .headboard .image .row .col-sm-5 form {
+          margin-top: 69px;
+          height: 530px;
+          margin-left: 0; } }
+      body header .headboard .image .row .col-sm-5 form .form-group {
+        width: 67%;
+        margin-left: 17%; }
+        body header .headboard .image .row .col-sm-5 form .form-group .form-control {
+          height: 51px;
+          border-radius: 17px;
+          border-color: #808080; }
+      body header .headboard .image .row .col-sm-5 form .btn-primary {
+        width: 67%;
+        border-radius: 17px;
+        background-color: #F5AB00;
+        border-color: #F5AB00;
+        height: 54px; }
+        @media (min-width: 1025px) {
+          body header .headboard .image .row .col-sm-5 form .btn-primary {
+            height: 68px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body header .headboard .image .row .col-sm-5 form .btn-primary {
+            height: 68px; } }
+      body header .headboard .image .row .col-sm-5 form .btn-primary:hover {
+        color: #F5AB00;
+        background-color: #FFFFFF;
+        border-color: #F5AB00; }
+      body header .headboard .image .row .col-sm-5 form label {
+        font-size: 17px;
+        text-align: left;
+        color: #303030;
+        margin-left: 17%;
+        margin-top: 21px;
+        margin-bottom: 34px; }
+        @media (min-width: 1025px) {
+          body header .headboard .image .row .col-sm-5 form label {
+            margin-top: 68px;
+            font-size: 30px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body header .headboard .image .row .col-sm-5 form label {
+            margin-top: 64px;
+            font-size: 28px;
+            margin-left: 12%; } }
+
+body header .image::before {
+  content: "";
+  background-color: #000000;
+  padding-left: 100%;
+  padding-bottom: 603px;
+  opacity: .6; }
+
+body main .services .title {
+  color: #808080;
+  margin-top: 48px; }
+  @media (min-width: 1025px) {
+    body main .services .title {
+      margin-top: 152px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .services .title {
+      margin-top: 152px; } }
+  body main .services .title h1 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px; }
+    @media (min-width: 1025px) {
+      body main .services .title h1 {
+        font-size: 51px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .services .title h1 {
+        font-size: 51px; } }
+  body main .services .title p {
+    font-size: 23px;
+    text-align: center; }
+    @media (min-width: 1025px) {
+      body main .services .title p {
+        font-size: 29px; } }
+
+body main .services .list-services {
+  margin-top: 40px;
+  text-align: center; }
+  @media (min-width: 1025px) {
+    body main .services .list-services {
+      margin-top: 100px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .services .list-services {
+      margin-top: 100px; } }
+  body main .services .list-services .row {
+    margin-right: 0; }
+    @media (min-width: 1025px) {
+      body main .services .list-services .row {
+        width: 70%;
+        margin-left: 13%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .services .list-services .row {
+        width: 100%;
+        margin-left: 0%; } }
+    body main .services .list-services .row .col-sm-4 img {
+      margin-bottom: 7px; }
+    body main .services .list-services .row .col-sm-4 h6 {
+      font-size: 20px;
+      width: 50%;
+      margin-left: 25%; }
+      @media (min-width: 1025px) {
+        body main .services .list-services .row .col-sm-4 h6 {
+          width: 79%;
+          margin-left: 13%;
+          margin-bottom: 35px;
+          font-size: 22px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .services .list-services .row .col-sm-4 h6 {
+          width: 78%;
+          margin-left: 13%;
+          margin-bottom: 35px;
+          font-size: 22px; } }
+    body main .services .list-services .row .col-sm-4 p {
+      font-size: 12px;
+      width: 50%;
+      margin-left: 25%; }
+      @media (min-width: 1025px) {
+        body main .services .list-services .row .col-sm-4 p {
+          width: 82%;
+          margin-left: 13%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .services .list-services .row .col-sm-4 p {
+          width: 82%;
+          margin-left: 13%; } }
+
+body footer {
+  background-color: #4C4C4C; }
+  body footer .row {
+    margin-right: 0; }
+    body footer .row .col-sm-6 ul {
+      margin-top: 40px; }
+      @media (min-width: 1025px) {
+        body footer .row .col-sm-6 ul {
+          margin-left: 9%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body footer .row .col-sm-6 ul {
+          margin-left: 9%; } }
+      body footer .row .col-sm-6 ul li {
+        list-style: none;
+        color: #CCCCCC;
+        font-size: 13px;
+        margin-top: 5px; }
+        @media (min-width: 1025px) {
+          body footer .row .col-sm-6 ul li {
+            font-size: 22px;
+            margin-top: 0; } }
+        body footer .row .col-sm-6 ul li i {
+          color: #FFFFFF;
+          width: 8%; }
+          @media (min-width: 1025px) {
+            body footer .row .col-sm-6 ul li i {
+              width: 5%;
+              letter-spacing: 16px; } }
+    body footer .row .logo {
+      text-align: center;
+      margin-top: 11px;
+      margin-bottom: 23px; }
+      @media (min-width: 1025px) {
+        body footer .row .logo {
+          margin-top: 40px;
+          margin-bottom: 40px; } }
+
+body main .diagnosis {
+  height: 305px;
+  margin-top: 36px;
+  text-align: center; }
+  @media (min-width: 1025px) {
+    body main .diagnosis {
+      margin-top: 241px;
+      height: 681px;
+      text-align: left; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .diagnosis {
+      text-align: left; } }
+  body main .diagnosis .image {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #FF9300), url("../images/cabezera.png");
+    height: 305px;
+    width: 100%;
+    background-size: 100%; }
+    @media (min-width: 1025px) {
+      body main .diagnosis .image {
+        height: 681px; } }
+    body main .diagnosis .image .text {
+      color: #FFFFFF; }
+      body main .diagnosis .image .text p {
+        margin-top: 70px;
+        position: absolute; }
+        @media (min-width: 1025px) {
+          body main .diagnosis .image .text p {
+            font-size: 32px;
+            margin-left: 8%;
+            width: 53%;
+            margin-top: 205px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .diagnosis .image .text p {
+            font-size: 32px;
+            margin-left: 2%;
+            width: 96%;
+            margin-top: 8px; } }
+    body main .diagnosis .image .btn-default {
+      font-size: 11px;
+      background-color: #FFFFFF;
+      margin-top: 198px;
+      color: #FF9300; }
+      @media (min-width: 1025px) {
+        body main .diagnosis .image .btn-default {
+          margin-left: 8%;
+          font-size: 19px;
+          margin-top: 376px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .diagnosis .image .btn-default {
+          margin-left: 3%;
+          font-size: 19px;
+          margin-top: 198px; } }
+    body main .diagnosis .image .btn-default:hover {
+      background-color: #F26739;
+      color: #FFFFFF;
+      border-color: transparent; }
+
+body main .contac-whats {
+  margin-top: 45px; }
+  @media (min-width: 1025px) {
+    body main .contac-whats {
+      margin-top: 200px; } }
+  body main .contac-whats .background-whastapp {
+    background-image: url("../images/background-whatsapp.png");
+    height: 263px;
+    width: 100%;
+    text-align: center; }
+    @media (min-width: 1025px) {
+      body main .contac-whats .background-whastapp {
+        height: 620px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .contac-whats .background-whastapp {
+        height: 390px; } }
+    body main .contac-whats .background-whastapp p {
+      color: #214A80; }
+      @media (min-width: 1025px) {
+        body main .contac-whats .background-whastapp p {
+          font-size: 32px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .contac-whats .background-whastapp p {
+          font-size: 32px; } }
+      body main .contac-whats .background-whastapp p label {
+        color: #000000; }
+    body main .contac-whats .background-whastapp img {
+      margin-top: 30px;
+      margin-bottom: 15px;
+      width: 70%; }
+      @media (min-width: 1025px) {
+        body main .contac-whats .background-whastapp img {
+          width: 40%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .contac-whats .background-whastapp img {
+          width: 40%; } }
+
+body main .team-company {
+  background-color: #d8d8d8;
+  text-align: center; }
+  body main .team-company h1 {
+    padding-top: 32px;
+    color: #808080; }
+    @media (min-width: 1025px) {
+      body main .team-company h1 {
+        font-size: 56px;
+        padding-top: 150px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .team-company h1 {
+        font-size: 56px;
+        padding-top: 150px; } }
+  body main .team-company .row {
+    margin-right: 0; }
+    body main .team-company .row .col-sm-4 {
+      text-align: -webkit-center;
+      margin-bottom: 20px; }
+      @media (min-width: 1025px) {
+        body main .team-company .row .col-sm-4 {
+          margin-right: -123px; } }
+    body main .team-company .row .content {
+      background-color: #FFFFFF;
+      width: 77%;
+      height: 477px;
+      text-align: left;
+      color: #214A80; }
+      @media (min-width: 1025px) {
+        body main .team-company .row .content {
+          width: 55%;
+          height: 429px;
+          margin-left: 50%; } }
+      body main .team-company .row .content img {
+        width: 100%; }
+      body main .team-company .row .content .description {
+        margin-left: 13%;
+        margin-top: 27px; }
+        body main .team-company .row .content .description p {
+          font-size: 12px;
+          width: 89%; }
+        body main .team-company .row .content .description h6 {
+          font-weight: 900; }
+      body main .team-company .row .content .description-alianze {
+        font-size: 22px; }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .team-company .row .content .description-alianze {
+            font-size: 19px; } }
+        body main .team-company .row .content .description-alianze p {
+          padding-top: 78px;
+          text-align: center; }
+      body main .team-company .row .content .alliance img {
+        width: 70%;
+        margin-top: 32px;
+        margin-left: 12%; }
+  body main .team-company .row-1 {
+    margin-top: 31px; }
+    @media (min-width: 1025px) {
+      body main .team-company .row-1 {
+        margin-top: 124px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .team-company .row-1 {
+        margin-top: 124px; } }
+  body main .team-company .row-2 {
+    margin-bottom: 65px; }
+
+body main .request2 {
+  text-align: center;
+  border-radius: 20px;
+  height: 500px; }
+  @media (min-width: 1025px) {
+    body main .request2 {
+      height: 801px;
+      border-radius: 0px;
+      background-color: #3FBD62; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .request2 {
+      border-radius: 0px;
+      background-color: #3FBD62;
+      height: 553px; } }
+  @media (min-width: 1025px) {
+    body main .request2 .desp {
+      height: 130px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .request2 .desp {
+      height: 26px; } }
+  body main .request2 .description {
+    position: absolute;
+    margin-top: 27px;
+    color: #FFFFFF;
+    width: 100%; }
+    @media (min-width: 1025px) {
+      body main .request2 .description {
+        margin-top: 6%;
+        font-size: 32px;
+        width: 30%;
+        text-align: left;
+        margin-left: 14%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .request2 .description {
+        margin-top: 50px;
+        font-size: 32px;
+        width: 41%;
+        text-align: left;
+        margin-left: 17%; } }
+    body main .request2 .description .text1 {
+      font-weight: 900; }
+    body main .request2 .description .text2 {
+      font-weight: 400; }
+    body main .request2 .description img {
+      display: none; }
+      @media (min-width: 1025px) {
+        body main .request2 .description img {
+          margin-left: 18%;
+          margin-top: 40px;
+          display: block; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .request2 .description img {
+          margin-left: 18%;
+          margin-top: 0px;
+          display: block; } }
+    body main .request2 .description hr {
+      width: 100%;
+      background-color: #E6E6FA; }
+      @media (min-width: 1025px) {
+        body main .request2 .description hr {
+          display: none; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .request2 .description hr {
+          display: none; } }
+
+body main .form-request {
+  border: 1px solid #BDC3C7;
+  height: 470px;
+  width: 29%;
+  margin-left: 56%;
+  background-color: #FFFFFF;
+  border-radius: 33px; }
+  body main .form-request .diagnosis-free {
+    position: absolute;
+    margin-top: 171px;
+    margin-left: -18%;
+    color: #000000; }
+    @media (min-width: 1025px) {
+      body main .form-request .diagnosis-free {
+        margin-top: -102px;
+        margin-left: 0;
+        width: 127%;
+        text-align: left; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .form-request .diagnosis-free {
+        margin-top: 54px;
+        margin-left: 43%;
+        width: 30%;
+        text-align: left; } }
+  body main .form-request .form2 {
+    position: absolute;
+    margin-top: 270px; }
+    @media (min-width: 1025px) {
+      body main .form-request .form2 {
+        margin-top: 153px;
+        margin-left: 4%;
+        width: 21%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .form-request .form2 {
+        margin-top: 220px;
+        margin-left: 7%;
+        width: 29%; } }
+    body main .form-request .form2 .form-reques2 {
+      border-color: #BDC3C7; }
+      @media (min-width: 1025px) {
+        body main .form-request .form2 .form-reques2 {
+          height: 51px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .form-request .form2 .form-reques2 {
+          height: 51px; } }
+    body main .form-request .form2 .btn-primary {
+      background-color: #F37421;
+      border-color: #F37421;
+      width: 100%; }
+      @media (min-width: 1025px) {
+        body main .form-request .form2 .btn-primary {
+          height: 71px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .form-request .form2 .btn-primary {
+          height: 71px; } }
+    body main .form-request .form2 .btn-primary:hover {
+      background-color: #FFFFFF;
+      border-color: #F37421;
+      color: #F37421; }
+
+body main .logo {
+  margin-left: 11%;
+  margin-top: 36px; }
+  @media (min-width: 1025px) {
+    body main .logo {
+      margin-top: 12px; } }
+
+body main .optimize-processes {
+  text-align: center; }
+  body main .optimize-processes .image {
+    background-image: url("../images/fondo-optimize.png");
+    height: 340px;
+    margin-top: 80px; }
+    @media (min-width: 1025px) {
+      body main .optimize-processes .image {
+        background-size: 100%;
+        margin-top: 200px; } }
+    body main .optimize-processes .image .row {
+      margin-right: 0;
+      color: #FFFFFF; }
+      body main .optimize-processes .image .row .col-sm-12 {
+        margin-top: 51px; }
+        @media (min-width: 1025px) {
+          body main .optimize-processes .image .row .col-sm-12 {
+            margin-top: 97px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .optimize-processes .image .row .col-sm-12 {
+            margin-top: 35px; } }
+        body main .optimize-processes .image .row .col-sm-12 h1 {
+          font-size: 26px; }
+          @media (min-width: 1025px) {
+            body main .optimize-processes .image .row .col-sm-12 h1 {
+              font-size: 48px; } }
+          @media (min-width: 668px) and (max-width: 1024px) {
+            body main .optimize-processes .image .row .col-sm-12 h1 {
+              font-size: 45px; } }
+        body main .optimize-processes .image .row .col-sm-12 p {
+          font-size: 19px; }
+          @media (min-width: 1025px) {
+            body main .optimize-processes .image .row .col-sm-12 p {
+              font-size: 29px; } }
+          @media (min-width: 668px) and (max-width: 1024px) {
+            body main .optimize-processes .image .row .col-sm-12 p {
+              font-size: 29px; } }
+  body main .optimize-processes .image::before {
+    content: "";
+    background-color: #000000;
+    padding-bottom: 319px;
+    opacity: .7;
+    padding-left: 100%; }
+  body main .optimize-processes img {
+    margin-top: 50px;
+    width: 100%; }
+    @media (min-width: 1025px) {
+      body main .optimize-processes img {
+        margin-top: 156px; } }
+  body main .optimize-processes .row {
+    margin-right: 0;
+    width: 80%;
+    margin-left: 8%; }
+    body main .optimize-processes .row .col-sm-4 {
+      margin-bottom: 0; }
+      @media (min-width: 1025px) {
+        body main .optimize-processes .row .col-sm-4 {
+          margin-bottom: 100px; } }
+      body main .optimize-processes .row .col-sm-4 p {
+        font-size: 22px;
+        width: 68%;
+        margin-left: 19%; }
+        @media (min-width: 1025px) {
+          body main .optimize-processes .row .col-sm-4 p {
+            width: 60%;
+            margin-left: 23%; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .optimize-processes .row .col-sm-4 p {
+            width: 86%;
+            margin-left: 11%; } }
+      body main .optimize-processes .row .col-sm-4 img {
+        width: 24%; }
+
+body main .diagnosis-free {
+  text-align: center;
+  margin-top: -21px; }
+  body main .diagnosis-free .btn-default {
+    width: 44%;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #3FBD62;
+    color: #FFFFFF; }
+
+body main .logo-description {
+  text-align: center;
+  margin-top: 215px; }
+  body main .logo-description p {
+    font-size: 29px;
+    color: #808080;
+    margin-top: 13px; }
+
+body main .benefits {
+  margin-top: 236px; }
+  body main .benefits .row {
+    margin-right: 0;
+    color: #303030; }
+    body main .benefits .row .col-sm-6 .description {
+      margin-left: 22%; }
+      body main .benefits .row .col-sm-6 .description p {
+        margin-top: 40px;
+        width: 79%; }
+    body main .benefits .row .col-sm-6 .list-benefits {
+      color: #323232; }
+      body main .benefits .row .col-sm-6 .list-benefits .benefits1 {
+        margin-top: -452px;
+        width: 26%;
+        margin-left: 8%; }
+      body main .benefits .row .col-sm-6 .list-benefits .benefits2 {
+        margin-left: 60%;
+        margin-top: 42px;
+        width: 24%; }
+      body main .benefits .row .col-sm-6 .list-benefits .benefits3 {
+        margin-top: 219px;
+        margin-left: 44%;
+        width: 2%; }
+      body main .benefits .row .col-sm-6 .list-benefits .benefits4 {
+        margin-top: -139px;
+        margin-left: -4%;
+        width: 2%; }
+
+body main .optimization-management {
+  height: 895px;
+  margin-top: 265px;
+  background-color: #303030; }
+  body main .optimization-management .image .background {
+    position: absolute;
+    left: 59%; }
+  body main .optimization-management .image .row {
+    margin-right: 0; }
+    body main .optimization-management .image .row .col-sm-7 .management {
+      color: #FFFFFF;
+      margin-top: 255px;
+      margin-left: 25%;
+      font-size: 19px; }
+      body main .optimization-management .image .row .col-sm-7 .management .management1 {
+        margin-top: -431px;
+        margin-left: 19%;
+        width: 25%; }
+      body main .optimization-management .image .row .col-sm-7 .management .management2 {
+        margin-left: 62%;
+        width: 17%;
+        margin-top: 29px; }
+      body main .optimization-management .image .row .col-sm-7 .management .management3 {
+        margin-left: 64%;
+        margin-top: 203px;
+        width: 17%; }
+      body main .optimization-management .image .row .col-sm-7 .management .management4 {
+        margin-top: 45px;
+        margin-left: 20%;
+        width: 16%; }
+      body main .optimization-management .image .row .col-sm-7 .management .management5 {
+        margin-top: -173px;
+        margin-left: -11%;
+        width: 18%; }
+      body main .optimization-management .image .row .col-sm-7 .management .management6 {
+        margin-top: -322px;
+        margin-left: -12%;
+        width: 20%; }
+    body main .optimization-management .image .row .col-sm-5 {
+      color: #FFFFFF; }
+      body main .optimization-management .image .row .col-sm-5 h3 {
+        font-size: 39px;
+        margin-top: 133px; }
+      body main .optimization-management .image .row .col-sm-5 p {
+        width: 73%; }
+
+body main .project-management {
+  margin-top: 184px;
+  height: 273px;
+  text-align: center;
+  border: 1px solid #FDF100;
+  width: 83%;
+  margin-left: 9%; }
+  body main .project-management .text-container h1 {
+    color: #F1AA00;
+    margin-top: -28px;
+    background-color: #FFFFFF;
+    width: 77%;
+    margin-left: 13%; }
+  body main .project-management .text-container p {
+    text-align: left;
+    width: 72%;
+    margin-left: 16%;
+    margin-top: 48px; }

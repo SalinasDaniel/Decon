@@ -1,0 +1,43 @@
+body {
+    main {
+        .benefits {
+            margin-top: 236px;
+            .row {
+                margin-right: 0;
+                color: #303030;
+                .col-sm-6 {
+                    .description {
+                        margin-left: 22%;
+                        p {
+                            margin-top: 40px;
+                            width: 79%;
+                        }
+                    }
+                    .list-benefits {
+                        color: #323232;
+                        .benefits1 {
+                            margin-top: -452px;
+                            width: 26%;
+                            margin-left: 8%;
+                        }
+                        .benefits2 {
+                            margin-left: 60%;
+                            margin-top: 42px;
+                            width: 24%;
+                        }
+                        .benefits3 {
+                            margin-top: 219px;
+                            margin-left: 44%;
+                            width: 2%;
+                        }
+                        .benefits4 {
+                            margin-top: -139px;
+                            margin-left: -4%;
+                            width: 2%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

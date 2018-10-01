@@ -1,0 +1,123 @@
+body {
+    header {
+        .headboard {
+            .image {
+                background-image: url('../images/cabezera.png');
+                height: 623px;
+                @include breakpoint(desktop) {
+                    background-size: 100%;
+                }
+                .row {
+                    margin-right: 0;
+                    text-align: left;
+                    .col-sm-7 {
+                        color: #FFFFFF;
+                        margin-top: 8px;
+                        margin-left: 6.5%;
+                        @include breakpoint(desktop) {
+                            margin-top: 141px;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-top: 141px;
+                        }
+                        p {
+                            @include breakpoint(desktop) {
+                                font-size: 38px;
+                            }
+                            @include breakpoint(tablet) {
+                                font-size: 26px;
+                            }
+                            width: 90%;
+                        }
+                    }
+                    ul {
+                        @include breakpoint(desktop) {
+                            font-size: 31px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 24px;
+                        }
+                    }
+                    .col-sm-5 {
+                        @include breakpoint(desktop) {
+                            max-width: 34.666667%;
+                        }
+                        @include breakpoint(tablet) {
+                            max-width: 34.666667%;
+                        }
+                        form {
+                            background-color: white;
+                            text-align: center;
+                            height: 413px;
+                            width: 100%;
+                            border-radius: 22px 22px 0px 0px;
+                            margin-left: 2%;
+                            @include breakpoint(desktop) {
+                                margin-top: 69px;
+                                width: 79%;
+                                height: 530px;
+                                margin-left: 0;
+                            }
+                            @include breakpoint(tablet) {
+                                margin-top: 69px;
+                                height: 530px;
+                                margin-left: 0;
+                            }
+                            .form-group {
+                                width: 67%;
+                                margin-left: 17%;
+                                .form-control {
+                                    height: 51px;
+                                    border-radius: 17px;
+                                    border-color: #808080;
+                                }
+                            }
+                            .btn-primary {
+                                width: 67%;
+                                border-radius: 17px;
+                                background-color: #F5AB00;
+                                border-color: #F5AB00;
+                                height: 54px;
+                                @include breakpoint(desktop) {
+                                    height: 68px;
+                                }
+                                @include breakpoint(tablet) {
+                                    height: 68px;
+                                }
+                            }
+                            .btn-primary:hover {
+                                color: #F5AB00;
+                                background-color: #FFFFFF;
+                                border-color: #F5AB00;
+                            }
+                            label {
+                                font-size: 17px;
+                                text-align: left;
+                                color: #303030;
+                                margin-left: 17%;
+                                margin-top: 21px;
+                                margin-bottom: 34px;
+                                @include breakpoint(desktop) {
+                                    margin-top: 68px;
+                                    font-size: 30px;
+                                }
+                                @include breakpoint(tablet) {
+                                    margin-top: 64px;
+                                    font-size: 28px;
+                                    margin-left: 12%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .image::before {
+            content: "";
+            background-color: #000000;
+            padding-left: 100%;
+            padding-bottom: 603px;
+            opacity: .6;
+        }
+    }
+}

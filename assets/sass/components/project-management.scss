@@ -1,0 +1,27 @@
+body {
+    main {
+        .project-management {
+            margin-top: 184px;
+            height: 273px;
+            text-align: center;
+            border: 1px solid #FDF100;
+            width: 83%;
+            margin-left: 9%;
+            .text-container {
+                h1 {
+                    color: #F1AA00;
+                    margin-top: -28px;
+                    background-color: #FFFFFF;
+                    width: 77%;
+                    margin-left: 13%;
+                }
+                p {
+                    text-align: left;
+                    width: 72%;
+                    margin-left: 16%;
+                    margin-top: 48px;
+                }
+            }
+        }
+    }
+}

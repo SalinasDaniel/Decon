@@ -1,0 +1,44 @@
+body {
+    header {
+        .logo-contact {
+            margin-top: 2%;
+            text-align: center;
+            margin-bottom: 15px;
+            @include breakpoint(desktop) {
+                text-align: left;
+                width: 85%;
+                margin-left: 7%;
+            }
+            @include breakpoint(tablet) {
+                text-align: left;
+                width: 85%;
+                margin-left: 7%;
+            }
+            .row {
+                margin-right: 0;
+                .col-sm-6 {
+                    .contact {
+                        margin-top: 46px;
+                        @include breakpoint (desktop) {
+                            text-align: right;
+                        }
+                        @include breakpoint (tablet) {
+                            text-align: right;
+                        }
+                        h1 {
+                            font-size: 32px;
+                            color: #05283C;
+                            font-weight: 300;
+                            .fa-whatsapp {
+                                font-size: 16px;
+                                position: absolute;
+                                color: #25d366;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

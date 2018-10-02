@@ -93,8 +93,8 @@ body header .headboard .image {
           height: 530px;
           margin-left: 0; } }
       body header .headboard .image .row .col-sm-5 form .form-group {
-        width: 72%;
-        margin-left: 16%; }
+        width: 67%;
+        margin-left: 17%; }
         body header .headboard .image .row .col-sm-5 form .form-group .form-control {
           height: 51px;
           border-radius: 17px;
@@ -107,10 +107,12 @@ body header .headboard .image {
         height: 54px; }
         @media (min-width: 1025px) {
           body header .headboard .image .row .col-sm-5 form .btn-primary {
-            height: 68px; } }
+            height: 68px;
+            width: 100%; } }
         @media (min-width: 668px) and (max-width: 1024px) {
           body header .headboard .image .row .col-sm-5 form .btn-primary {
-            height: 68px; } }
+            height: 68px;
+            width: 100%; } }
       body header .headboard .image .row .col-sm-5 form .btn-primary:hover {
         color: #F5AB00;
         background-color: #FFFFFF;

@@ -64,8 +64,8 @@ body {
                                 margin-left: 0;
                             }
                             .form-group {
-                                width: 72%;
-                                margin-left: 16%;
+                                width: 67%;
+                                margin-left: 17%;
                                 .form-control {
                                     height: 51px;
                                     border-radius: 17px;
@@ -80,9 +80,11 @@ body {
                                 height: 54px;
                                 @include breakpoint(desktop) {
                                     height: 68px;
+                                    width: 100%;
                                 }
                                 @include breakpoint(tablet) {
                                     height: 68px;
+                                    width: 100%;
                                 }
                             }
                             .btn-primary:hover {

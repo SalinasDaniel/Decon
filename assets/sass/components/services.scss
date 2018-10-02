@@ -11,7 +11,6 @@ body {
                     margin-top: 152px;
                 }
                 h1 {
-                    font-size: 18px;
                     font-weight: 300;
                     text-align: center;
                     margin-bottom: 20px;
@@ -52,11 +51,11 @@ body {
                     .col-sm-4 {
                         img {
                             margin-bottom: 7px;
+                            width: 100%
                         }
                         h6 {
                             font-size: 20px;
-                            width: 50%;
-                            margin-left: 25%;
+                            margin-left: 11%;
                             @include breakpoint(desktop) {
                                 width: 79%;
                                 margin-left: 13%;
@@ -72,8 +71,8 @@ body {
                         }
                         p {
                             font-size: 12px;
-                            width: 50%;
-                            margin-left: 25%;
+                            width: 68%;
+                            margin-left: 19%;
                             @include breakpoint(desktop) {
                                 width: 82%;
                                 margin-left: 13%;

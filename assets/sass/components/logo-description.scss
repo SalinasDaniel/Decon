@@ -2,11 +2,23 @@ body {
     main {
         .logo-description {
             text-align: center;
-            margin-top: 215px;
+            margin-top: 50px;
+            @include breakpoint(desktop) {
+                margin-top: 215px;
+            }
+            @include breakpoint(tablet) {
+                margin-top: 80px;
+            }
             p {
-                font-size: 29px;
+                font-size: 16px;
                 color: #808080;
                 margin-top: 13px;
+                @include breakpoint(desktop) {
+                    font-size: 29px;
+                }
+                @include breakpoint(tablet) {
+                    font-size: 29px;
+                }
             }
         }
     }

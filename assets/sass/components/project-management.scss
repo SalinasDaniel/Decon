@@ -1,12 +1,14 @@
 body {
     main {
         .project-management {
-            margin-top: 184px;
-            height: 273px;
             text-align: center;
             border: 1px solid #FDF100;
             width: 83%;
             margin-left: 9%;
+            margin-top: 100px;
+            @include breakpoint(desktop) {
+                margin-top: 184px;
+            }
             .text-container {
                 h1 {
                     color: #F1AA00;
@@ -14,12 +16,21 @@ body {
                     background-color: #FFFFFF;
                     width: 77%;
                     margin-left: 13%;
+                    font-size: 32px;
+                    @include breakpoint(desktop) {
+                        font-size: 40px;
+                    }
                 }
                 p {
                     text-align: left;
-                    width: 72%;
-                    margin-left: 16%;
-                    margin-top: 48px;
+                    width: 92%;
+                    margin-left: 7%;
+                    margin-top: 21px;
+                    @include breakpoint(desktop) {
+                        width: 72%;
+                        margin-left: 16%;
+                        margin-top: 48px;
+                    }
                 }
             }
         }

@@ -4,14 +4,13 @@ body {
             text-align: center;
             border-radius: 20px;
             height: 500px;
+            background-color: #3FBD62;
             @include breakpoint(desktop) {
                 height: 801px;
                 border-radius: 0px;
-                background-color: #3FBD62;
             }
             @include breakpoint(tablet) {
                 border-radius: 0px;
-                background-color: #3FBD62;
                 height: 553px;
             }
             .desp {
@@ -35,11 +34,11 @@ body {
                     margin-left: 14%;
                 }
                 @include breakpoint (tablet) {
-                    margin-top: 50px;
+                    margin-top: 6%;
                     font-size: 32px;
-                    width: 41%;
+                    width: 50%;
                     text-align: left;
-                    margin-left: 17%;
+                    margin-left: 6%;
                 }
                 .text1 {
                     font-weight: 900;
@@ -60,29 +59,33 @@ body {
                         display: block;
                     }
                 }
-                hr {
-                    width: 100%;
-                    background-color: #E6E6FA;
-                    @include breakpoint(desktop) {
-                        display: none;
-                    }
-                    @include breakpoint(tablet) {
-                        display: none;
-                    }
-                }
             }
         }
         .form-request {
             border: 1px solid #BDC3C7;
-            height: 470px;
-            width: 29%;
-            margin-left: 56%;
+            width: 100%;
             background-color: #FFFFFF;
-            border-radius: 33px;
+            border-radius: 25px 25px 0px 0px;
+            position: absolute;
+            margin-top: 156px;
+            height: 344px;
+            @include breakpoint(desktop) {
+                width: 29%;
+                margin-left: 56%;
+                height: 470px;
+                position: static;
+                border-radius: 33px;
+                margin-top: 6%;
+            }
+            @include breakpoint(tablet) {
+                width: 40%;
+                margin-left: 54%;
+                height: 470px;
+                position: static;
+                border-radius: 33px;
+                margin-top: 3%;
+            }
             .diagnosis-free {
-                position: absolute;
-                margin-top: 171px;
-                margin-left: -18%;
                 color: #000000;
                 @include breakpoint(desktop) {
                     margin-top: -102px;
@@ -91,24 +94,21 @@ body {
                     text-align: left;
                 }
                 @include breakpoint(tablet) {
-                    margin-top: 54px;
-                    margin-left: 43%;
-                    width: 30%;
                     text-align: left;
                 }
             }
             .form2 {
-                position: absolute;
-                margin-top: 270px;
+                margin-top: 34px;
+                margin-left: 10%;
+                width: 78%;
                 @include breakpoint(desktop) {
                     margin-top: 153px;
-                    margin-left: 4%;
-                    width: 21%;
+                    margin-left: 13%;
+                    width: 75%;
                 }
                 @include breakpoint(tablet) {
-                    margin-top: 220px;
-                    margin-left: 7%;
-                    width: 29%;
+                    margin-left: 13%;
+                    width: 75%;
                 }
                 .form-reques2 {
                     border-color: #BDC3C7;
@@ -127,7 +127,7 @@ body {
                         height: 71px;
                     }
                     @include breakpoint(tablet) {
-                        height: 71px;
+                        height: 55px;
                     }
                 }
                 .btn-primary:hover {

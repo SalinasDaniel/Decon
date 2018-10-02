@@ -1,39 +1,93 @@
 body {
     main {
         .benefits {
-            margin-top: 236px;
+            margin-top: 63px;
+            @include breakpoint(desktop) {
+                margin-top: 236px;
+            }
+            @include breakpoint(tablet) {
+                margin-top: 110px;
+            }
             .row {
                 margin-right: 0;
                 color: #303030;
                 .col-sm-6 {
                     .description {
-                        margin-left: 22%;
+                        @include breakpoint(desktop) {
+                            margin-left: 22%;
+                        }
+                        h1 {
+                            text-align: center;
+                            @include breakpoint(desktop) {
+                                text-align: left;
+                            }
+                        }
                         p {
                             margin-top: 40px;
-                            width: 79%;
+                            width: 100%;
+                            margin-left: 4%;
+                            @include breakpoint(desktop) {
+                                width: 79%;
+                                margin-left: 0;
+                            }
                         }
                     }
                     .list-benefits {
                         color: #323232;
+                        font-size: 11px;
+                        position: relative;
+                        margin-top: 30px;
+                        @include breakpoint(desktop) {
+                            font-size: 16px;
+                            margin-top: 0px;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-top: 96px;
+                            margin-top: 0px;
+                        }
+                        img {
+                            width: 100%;
+                            @include breakpoint(desktop) {
+                                width: 65%;
+                            }
+                        }
                         .benefits1 {
-                            margin-top: -452px;
-                            width: 26%;
-                            margin-left: 8%;
+                            top: 5%;
+                            position: absolute;
+                            left: 10%;
+                            width: 18%;
+                            @include breakpoint(desktop) {
+                                top: 2%;
+                                left: 6%;
+                            }
                         }
                         .benefits2 {
-                            margin-left: 60%;
-                            margin-top: 42px;
-                            width: 24%;
+                            position: absolute;
+                            width: 19%;
+                            left: 81%;
+                            top: 12%;
+                            @include breakpoint(desktop) {
+                                width: 20%;
+                                left: 57%;
+                                top: 19%;
+                            }
                         }
                         .benefits3 {
-                            margin-top: 219px;
-                            margin-left: 44%;
-                            width: 2%;
+                            position: absolute;
+                            top: 87%;
+                            left: 66%;
+                            width: 31%;
+                            @include breakpoint(desktop) {
+                                left: 43%;
+                            }
                         }
                         .benefits4 {
-                            margin-top: -139px;
-                            margin-left: -4%;
-                            width: 2%;
+                            position: absolute;
+                            top: 70%;
+                            width: 15%;
+                            @include breakpoint(desktop) {
+                                right: 87%;
+                            }
                         }
                     }
                 }

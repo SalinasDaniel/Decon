@@ -117,16 +117,16 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="button diagnosis-free">
+        <section class="button diagnosis-free">
             <a href="#">
                 <button type="button" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
             </a>
-        </section> -->
-        <!-- <section class="logo-description">
+        </section>
+        <section class="logo-description">
             <img src="assets/images/logosap.png" alt="SAP">
             <p>EL MEJOR SOFTWARE DEL MERCADO<br>PARA LA ORGANIZACIÓN PRODUCTIVA</p>
-        </section> -->
-        <!-- <section class="benefits">
+        </section>
+        <section class="benefits">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="description">
@@ -137,28 +137,28 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="list-benefits">
-                        <img src="assets/images/beneficios.png" alt="Beneficios">
                         <p class="benefits1">CONTROL FUNCIONES CRÍTICAS</p>
                         <p class="benefits2">VISIBILIDAD RECURSOS DEL PERSONAL</p>
                         <p class="benefits3">CONTROL PRESUPUESTARIO</p>
                         <p class="benefits4">INFORMES 360º</p>
+                        <img src="assets/images/beneficios.png" alt="Beneficios">
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="optimization-management">
+        </section>
+        <section class="optimization-management">
             <div class="image">
                 <img class="background" src="assets/images/background-management.png" alt="Gestion">
                 <div class="row">
                     <div class="col-sm-7">
                         <div class="management">
-                            <img src="assets/images/management.png" alt="Gestion Optimizacion">
                             <p class="management1">DISMINUCIÓN DE COSTOS</p>
                             <p class="management2">REDUCIR TIEMPOS</p>
                             <p class="management3">ELIMINAR ERRORES</p>
                             <p class="management4">MEJORA CALIDAD</p>
                             <p class="management5">MEJORA EFICIENCIA</p>
                             <p class="management6">REDUCIR RECURSOS TAREAS</p>
+                            <img src="assets/images/management.png" alt="Gestion Optimizacion">
                         </div>
                     </div>
                     <div class="col-sm-5">
@@ -171,15 +171,15 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="project-management">
+        </section>
+        <section class="project-management">
             <div class="text-container">
                 <h1>Gerencia de proyectos tecnológicos</h1>
                 <p>La causa de muchos fracasos en los proyectos de tecnología se deben a la falta de habilidades y disciplina de gestión y organización de los proyectos. La no definición de roles y responsabilidades, y la minusvaloración del impacto organizativo
                     de los proyectos de tecnología. <br><br> En Decon services te ayudamos a que los procesos de trasformación tecnológica se conviertan en la ventaja competitiva de tu empresa.</p>
             </div>
-        </section> -->
-        <!-- <section class="diagnosis">
+        </section>
+        <section class="diagnosis">
             <div class="image">
                 <div class="text">
                     <p>Nuestros planes accesibles te permitirán obtener el mayor beneficio de tu empresa sin que tengas que pagar de más.</p>
@@ -188,16 +188,15 @@
                     <button type="button" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
                 </a>
             </div>
-        </section> -->
-
-        <!-- <section class="contac-whats">
+        </section>
+        <section class="contac-whats">
             <div class="background-whastapp">
                 <p>¿Tienes preguntas acerca del tema financiero? <br> Contacta GRATIS ahora con un asesor experto </p>
                 <a href="#"><img src="assets/images/contactowhatsapp.png" alt="Whatsapp"></a>
                 <p><label>O llama al</label> 847 0737</p>
             </div>
-        </section> -->
-        <!-- <section class="team-company">
+        </section>
+        <section class="team-company">
             <h1>Equipo Decon</h1>
             <div class="row row-1">
                 <div class="col-sm-4">
@@ -273,14 +272,13 @@
                 </div>
             </div>
             <br>
-        </section> -->
-        <!-- <section class="request2">
+        </section>
+        <section class="request2">
             <div class="desp"></div>
             <div class="description">
                 <p class="text1">Evita sanciones por el incumplimiento de la ley.</p>
                 <p class="text2">Tu tranquilidad empieza con una tributación sana.</p>
                 <img src="assets/images/flechablanca.png" alt="Diagnostico Gratis">
-                <hr>
             </div>
             <div class="form-request">
                 <form class="form2" action="/action_page.php">
@@ -297,7 +295,7 @@
                     <button type="submit" class="btn btn-primary">SOLICITAR AHORA</button>
                 </form>
             </div>
-        </section> -->
+        </section>
     </main>
     <footer>
         <div class="row">

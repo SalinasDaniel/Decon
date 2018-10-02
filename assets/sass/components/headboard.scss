@@ -73,18 +73,16 @@ body {
                                 }
                             }
                             .btn-primary {
-                                width: 67%;
+                                width: 100%;
                                 border-radius: 17px;
                                 background-color: #F5AB00;
                                 border-color: #F5AB00;
                                 height: 54px;
                                 @include breakpoint(desktop) {
                                     height: 68px;
-                                    width: 100%;
                                 }
                                 @include breakpoint(tablet) {
                                     height: 68px;
-                                    width: 100%;
                                 }
                             }
                             .btn-primary:hover {

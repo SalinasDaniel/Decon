@@ -5,9 +5,10 @@ body {
             margin-right: 0;
             .col-sm-6 {
                 ul {
-                    margin-top: 40px;
+                    margin-top: 101px;
                     @include breakpoint(desktop) {
                         margin-left: 9%;
+                        margin-top: 40px;
                     }
                     @include breakpoint(tablet) {
                         margin-left: 9%;

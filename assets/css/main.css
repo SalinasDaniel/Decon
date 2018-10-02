@@ -9,7 +9,9 @@ body header .logo-contact {
     body header .logo-contact {
       text-align: left;
       width: 85%;
-      margin-left: 7%; } }
+      margin-left: 7%;
+      margin-top: 0;
+      margin-bottom: 0; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body header .logo-contact {
       text-align: left;
@@ -37,7 +39,7 @@ body header .logo-contact {
 
 body header .headboard .image {
   background-image: url("../images/cabezera.png");
-  height: 623px; }
+  height: 580px; }
   @media (min-width: 1025px) {
     body header .headboard .image {
       background-size: 100%; } }
@@ -83,7 +85,7 @@ body header .headboard .image {
       margin-left: 2%; }
       @media (min-width: 1025px) {
         body header .headboard .image .row .col-sm-5 form {
-          margin-top: 70px;
+          margin-top: 27px;
           width: 79%;
           height: 530px;
           margin-left: 0; } }
@@ -138,7 +140,7 @@ body header .image::before {
   content: "";
   background-color: #000000;
   padding-left: 100%;
-  padding-bottom: 603px;
+  padding-bottom: 560px;
   opacity: .6; }
 
 body main .services .title {
@@ -222,10 +224,11 @@ body footer {
   body footer .row {
     margin-right: 0; }
     body footer .row .col-sm-6 ul {
-      margin-top: 40px; }
+      margin-top: 101px; }
       @media (min-width: 1025px) {
         body footer .row .col-sm-6 ul {
-          margin-left: 9%; } }
+          margin-left: 9%;
+          margin-top: 40px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body footer .row .col-sm-6 ul {
           margin-left: 9%; } }

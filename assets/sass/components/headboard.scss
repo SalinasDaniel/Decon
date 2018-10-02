@@ -3,7 +3,7 @@ body {
         .headboard {
             .image {
                 background-image: url('../images/cabezera.png');
-                height: 623px;
+                height: 580px;
                 @include breakpoint(desktop) {
                     background-size: 100%;
                 }
@@ -53,7 +53,7 @@ body {
                             border-radius: 22px 22px 0px 0px;
                             margin-left: 2%;
                             @include breakpoint(desktop) {
-                                margin-top: 70px;
+                                margin-top: 27px;
                                 width: 79%;
                                 height: 530px;
                                 margin-left: 0;
@@ -118,7 +118,7 @@ body {
             content: "";
             background-color: #000000;
             padding-left: 100%;
-            padding-bottom: 603px;
+            padding-bottom: 560px;
             opacity: .6;
         }
     }

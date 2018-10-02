@@ -475,13 +475,11 @@ body main .form-request {
   background-color: #FFFFFF;
   border-radius: 25px 25px 0px 0px;
   position: absolute;
-  margin-top: 156px;
-  height: 344px; }
+  margin-top: 156px; }
   @media (min-width: 1025px) {
     body main .form-request {
       width: 29%;
       margin-left: 56%;
-      height: 470px;
       position: static;
       border-radius: 33px;
       margin-top: 6%; } }
@@ -489,7 +487,6 @@ body main .form-request {
     body main .form-request {
       width: 40%;
       margin-left: 54%;
-      height: 470px;
       position: static;
       border-radius: 33px;
       margin-top: 3%; } }
@@ -528,13 +525,16 @@ body main .form-request {
     body main .form-request .form2 .btn-primary {
       background-color: #F37421;
       border-color: #F37421;
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 25px; }
       @media (min-width: 1025px) {
         body main .form-request .form2 .btn-primary {
-          height: 71px; } }
+          height: 71px;
+          margin-bottom: 40px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .form-request .form2 .btn-primary {
-          height: 55px; } }
+          height: 55px;
+          margin-bottom: 30px; } }
     body main .form-request .form2 .btn-primary:hover {
       background-color: #FFFFFF;
       border-color: #F37421;
@@ -640,10 +640,14 @@ body main .diagnosis-free {
     font-size: 13px; }
     @media (min-width: 1025px) {
       body main .diagnosis-free .btn-default {
-        width: 44%; } }
+        width: 44%;
+        height: 48px;
+        font-size: 21px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .diagnosis-free .btn-default {
-        width: 44%; } }
+        width: 44%;
+        height: 48px;
+        font-size: 21px; } }
 
 body main .logo-description {
   text-align: center;

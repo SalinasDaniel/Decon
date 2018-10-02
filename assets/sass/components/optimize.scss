@@ -104,9 +104,13 @@ body {
                 font-size: 13px;
                 @include breakpoint(desktop) {
                     width: 44%;
+                    height: 48px;
+                    font-size: 21px;
                 }
                 @include breakpoint(tablet) {
                     width: 44%;
+                    height: 48px;
+                    font-size: 21px;
                 }
             }
         }

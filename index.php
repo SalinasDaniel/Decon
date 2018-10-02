@@ -281,7 +281,7 @@
                 <img src="assets/images/flechablanca.png" alt="Diagnostico Gratis">
             </div>
             <div class="form-request">
-                <form class="form2" action="/action_page.php">
+                <form class="form2" action="">
                     <h2 class="diagnosis-free">Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
                     <div class="form-group">
                         <input type="text" class="form-control form-reques2" id="name" placeholder="Nombre">

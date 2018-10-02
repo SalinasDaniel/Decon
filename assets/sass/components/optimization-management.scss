@@ -10,7 +10,7 @@ body {
                     position: absolute;
                     @include breakpoint(desktop) {
                         left: 59%;
-                        width: 41%;
+                        width: 36%;
                         display: block;
                     }
                     @include breakpoint(tablet) {
